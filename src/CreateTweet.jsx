@@ -12,7 +12,8 @@ class CreateTweet extends React.Component {
     componentDidMount() {
         // Simple POST request with a JSON body using fetch
         const requestOptions = {
-            method: 'GET',
+            method: 'POST',
+            body: "this message is a tweet message!",
             headers: { 'Content-Type': 'application/json',
                        'Access-Control-Allow-Origin': '*' }
         };

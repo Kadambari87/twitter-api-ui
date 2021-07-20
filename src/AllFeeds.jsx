@@ -1,17 +1,16 @@
-import React, { Component } from "react";
+import React from 'react';
 
 class AllFeeds extends React.Component {
 
   constructor(props) {
       super(props);
-
       this.state = {
           message: null
       };
   }
 
   componentDidMount() {
-      // Simple POST request with a JSON body using fetch
+      // Simple GET request to fetch all feeds
       const requestOptions = {
           method: 'GET',
           headers: { 'Content-Type': 'application/json',
@@ -35,4 +34,4 @@ class AllFeeds extends React.Component {
   }
 }
 
-export default AllFeeds ;
+export default AllFeeds;
