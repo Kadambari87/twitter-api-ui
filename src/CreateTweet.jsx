@@ -16,7 +16,7 @@ class CreateTweet extends React.Component {
             headers: { 'Content-Type': 'application/json',
                        'Access-Control-Allow-Origin': '*' }
         };
-        fetch('https://xf93qzt2n6.execute-api.eu-west-1.amazonaws.com/Prod/tweets/1234/', requestOptions)
+        fetch('https://rbzx7rki00.execute-api.eu-west-1.amazonaws.com/Prod/tweets/1234/', requestOptions)
             .then(response => response.json())
             .then(data => this.setState({ message: data.message }));
     }
