@@ -1,3 +1,11 @@
+# UI for Tweets API
+This is a front end UI for Tweets API. This is work in progress and only has code to run a basic single web page.
+The objective of this application is to create proper pages with the required layout to display the tweets of a user.
+
+The web page accessible via AWS Amplify. The link for accessing the UI is https://master.d3omp3rtrplgpa.amplifyapp.com/.
+
+Please navigate to the [Web Link](https://master.d3omp3rtrplgpa.amplifyapp.com/) to test this basic app.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
